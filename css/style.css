@@ -1,0 +1,182 @@
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Droid Serif', serif;
+}
+/* End of Reset */
+
+
+/* Start of Custom Styles */
+.content {
+    padding: 0 15px;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #000080;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    margin: 0 auto;
+    height: 55px;
+}
+
+.top-navigation .links {
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 16px; 
+    color: #ffffff; 
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+    padding: 20px 0;
+}
+
+.top-navigation .links li {
+    display:inline-block;
+    margin-left: 25px;
+}
+
+.top-navigation .links li:hover {
+    color:#ffff00;
+    cursor:pointer;
+}
+
+/*Header Section*/
+
+.masthead,
+.about,
+.projects,
+.contact {
+    text-align: center;
+}
+
+.masthead {
+    background-image: url('../images/Sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    overflow: auto;
+    padding:20px;
+    color: #fff;
+    height: 300px;
+}
+
+.masthead h1 {
+    font-size: 50px;
+    margin-top: 60px;
+    font-weight: 300;
+    font-family: 'Dancing Script', cursive;
+    }
+
+.about {
+    background-color: #000080;
+    padding: 50px 0;
+}
+
+.about h2 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1em;
+    font-family: 'Monda', sans-serif;
+    margin-bottom: 25px;
+}
+
+.about h4 {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.column {
+    width: 50%;
+    height: 300px;
+    float: left;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.projects h2 {
+    font-size: 40px;
+    margin-top: 60px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000080;
+    font-family: 'Monda', sans-serif;
+}
+
+.projects h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000080;
+}
+
+.contact h2 {
+    font-size: 40px;
+    margin: 15px 0;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000080;
+    font-family: 'Monda', sans-serif;
+}
+
+.icons {
+    color:#000080;
+    display:inline-block;
+}
