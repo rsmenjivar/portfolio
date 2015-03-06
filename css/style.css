@@ -176,7 +176,7 @@ body {
     font-family: 'Monda', sans-serif;
 }
 
-.contact .icons {
+.contact .icons li {
     color:#000080;
     display:inline-block;
 }
