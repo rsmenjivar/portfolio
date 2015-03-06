@@ -176,7 +176,11 @@ body {
     font-family: 'Monda', sans-serif;
 }
 
-.icons {
+.contact .icons {
     color:#000080;
     display:inline-block;
+}
+
+.contact .icons li:hover {
+    cursor:pointer;
 }
